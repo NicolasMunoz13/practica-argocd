@@ -13,5 +13,5 @@ spec:
             name: app
             port:
               number: 80
-        path: /argo
+        path: /argocicd
         pathType: Prefix

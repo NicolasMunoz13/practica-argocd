@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: testapp
-        image: arungupta/helloworld-spring-boot:latest
+        image: bhargavshah86/kube-test:v0.1
         ports:
         - containerPort: 80
