@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: testapp
-        image: testapp:latest
+        image: arungupta/helloworld-spring-boot:latest
         ports:
         - containerPort: 80
