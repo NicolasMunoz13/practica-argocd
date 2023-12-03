@@ -1,8 +1,6 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
   name: ing-app
   namespace: default
 spec:
@@ -15,5 +13,5 @@ spec:
             name: app
             port:
               number: 80
-        path: /app
+        path: /argo
         pathType: Prefix
