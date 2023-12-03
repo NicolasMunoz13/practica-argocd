@@ -6,7 +6,7 @@ metadata:
   name: ing-app
   namespace: default
 spec:
-  ingressClassName: test
+  ingressClassName: testapp
   rules:
   - http:
       paths:
