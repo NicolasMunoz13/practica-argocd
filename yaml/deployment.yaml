@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: testapp
-        image: bhargavshah86/kube-test:v0.1
+        image: testapp:latest
         ports:
         - containerPort: 80
